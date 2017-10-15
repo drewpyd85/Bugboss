@@ -1,2 +1,2 @@
 # bugboss
-The Bug Boss WordPress Site
+The Bug Boss WordPress Site - WordPress
