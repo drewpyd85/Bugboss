@@ -1,0 +1,93 @@
+.home-jumbotron {
+    background-image: url(../img/home-hero.jpg);
+    background-size: cover;
+    background-position: 30% 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 70vh;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    box-shadow: 0px 5px 40px #0f0f0f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 30vw;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+    .container {
+        
+        .hero-heading {
+            
+            h1 {
+                font-family: 'Raleway', sans-serif;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+            
+            p {
+                font-family: 'Raleway', sans-serif;
+                font-weight: 400;
+                font-size: 2em;
+                background-color: rgba(0,0,0,0.2);
+                display: block;
+                padding: 5px 5vw;
+                margin-left: -100%;
+                margin-right: -100%;
+            }
+            
+            .cta-hero {
+                display: inline-block;
+                background-color: #18d34b;
+                box-shadow: 0px 5px 20px rgba(15, 15, 15, 0.5);
+                color: #fff;
+                padding: 5px 2vw;
+                line-height: 2;
+                text-align: center;
+                text-transform: uppercase;
+                margin: 0 auto;
+                font-weight: 400;
+                font-size: 1.2em;
+                transition: all ease-in 100ms;
+                
+                &:hover {
+                    text-decoration: none;
+                    transform: scale(1.1);
+                }
+                
+            }
+            
+        }
+    }
+    
+    .hero-form {
+        max-width: 400px;
+        background-color: rgb(217, 38, 38);
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    .home-jumbotron {
+        background-image: url(../img/home-hero-mobile.jpg);
+        background-position: center center;
+        padding-left: 0;
+    }
+    
+    .slogan {
+        font-size: 6px;
+        color: black;
+    }
+    
+    .hero-form {
+        display: none;
+    }
+}
