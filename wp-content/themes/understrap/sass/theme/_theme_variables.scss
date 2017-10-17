@@ -1,0 +1,45 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
+// Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
+
+//HEADER STUFF//
+
+.nav-link {
+    &:hover {
+        color: yellow !important;
+    }
+}
+
+
+//FOOTER STUFF//
+#wrapper-footer {
+    background-color: darken(#343a40, 10%);
+}
+
+.site-info {
+    text-align: center;
+    color: #fff;
+}
+
+//BODY STUFF//
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+#full-width-page-wrapper {
+	padding-top: 0;
+    padding-bottom: 0;
+}
+
+.row-dark {
+    background-color: #343a40;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+.paragraph-skinny {
+    max-width: 900px;
+    margin: 0 auto;
+}
