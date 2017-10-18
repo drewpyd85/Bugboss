@@ -21,47 +21,57 @@
 
         </div>
         
-        <div class="hero-form">
+        <div class="hero-form rounded-top">
 
                 <form>
+                   
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+<!--                        <label for="exampleInputName1">Name</label>-->
+                        <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Your Full Name">
+                    </div>
+                    
+                    <div class="form-group">
+<!--                        <label for="exampleInputEmail1">Email</label>-->
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="exampleTextarea">Example textarea</label>
-                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
                     </div>
 
                     <fieldset class="form-group">
-                        <legend>Radio buttons</legend>
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                                Option one is this and that&mdash;be sure to include why it's great
-                            </label>
-                        </div>
-                        <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
-                            Option two can be something else and selecting it will deselect option one
-                          </label>
-                        </div>
-                        <div class="form-check disabled">
-                        <label class="form-check-label">
-                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-                            Option three is disabled
-                          </label>
-                        </div>
+                        <legend>I Need Help With</legend>
+                        
+                        <label class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">Roaches</span>
+                        </label>
+                        
+                        <label class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">Termites</span>
+                        </label>
+                        
+                        <label class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">Ants</span>
+                        </label>
+                        
+                        <label class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">Rodents</span>
+                        </label>
+                        
+                        <label class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">Other</span>
+                        </label>
+                     
                     </fieldset>
-
-                      <button type="submit" class="btn btn-primary">Submit</button>
+                      
+                    <button type="submit" class="btn btn-primary bg-info text-white">Submit</button>
             </form>
 
         </div>

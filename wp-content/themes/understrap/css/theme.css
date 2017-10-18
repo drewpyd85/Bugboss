@@ -1,7 +1,4 @@
 @charset "UTF-8";
-.nav-link:hover {
-  color: yellow !important; }
-
 #wrapper-footer {
   background-color: #1d2124; }
 
@@ -15,16 +12,6 @@
 #full-width-page-wrapper {
   padding-top: 0;
   padding-bottom: 0; }
-
-.row-dark {
-  background-color: #343a40;
-  color: #fff;
-  font-weight: 400;
-  font-size: 1.25em; }
-
-.paragraph-skinny {
-  max-width: 900px;
-  margin: 0 auto; }
 
 /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
@@ -10077,8 +10064,8 @@ a.skip-link {
   .home-jumbotron .container .hero-heading .cta-hero {
     display: inline-block;
     background-color: #18d34b;
-    -webkit-box-shadow: 0px 5px 20px rgba(15, 15, 15, 0.5);
-            box-shadow: 0px 5px 20px rgba(15, 15, 15, 0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     color: #fff;
     padding: 5px 2vw;
     line-height: 2;
@@ -10087,18 +10074,63 @@ a.skip-link {
     margin: 0 auto;
     font-weight: 400;
     font-size: 1.2em;
-    -webkit-transition: all ease-in 100ms;
-    transition: all ease-in 100ms; }
+    -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
     .home-jumbotron .container .hero-heading .cta-hero:hover {
       text-decoration: none;
-      -webkit-transform: scale(1.1);
-              transform: scale(1.1); }
+      -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+              box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
   .home-jumbotron .hero-form {
+    color: #000;
     max-width: 400px;
-    background-color: #d92626;
+    max-height: 500px;
     position: absolute;
     bottom: 0;
-    left: 10%; }
+    left: 10%;
+    padding: 25px 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: white; }
+    .home-jumbotron .hero-form form {
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+      .home-jumbotron .hero-form form button {
+        display: inline-block;
+        background-color: #18d34b;
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        color: #fff;
+        padding: 5px 2vw;
+        line-height: 2;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 1.2em;
+        -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        border: none;
+        cursor: pointer; }
+        .home-jumbotron .hero-form form button:hover {
+          text-decoration: none;
+          -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+                  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+        .home-jumbotron .hero-form form button:hover {
+          -webkit-box-shadow: none;
+                  box-shadow: none; }
+
+#emailHelp {
+  color: #fff !important; }
 
 @media screen and (max-width: 450px) {
   .home-jumbotron {

@@ -2,14 +2,44 @@
 // To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
 // Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
 
-//HEADER STUFF//
+//VARIBLES//
+$big-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
-.nav-link {
+$small-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  
+$small-box-trans: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+$small-box-hover: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+//MIXINS//
+@mixin small-box-design {
+    display: inline-block;
+    background-color: #18d34b;
+    box-shadow: $small-box-shadow;
+    color: #fff;
+    padding: 5px 2vw;
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 1.2em;
+    transition: $small-box-trans;
+
     &:hover {
-        color: yellow !important;
+        text-decoration: none;
+        box-shadow: $small-box-hover;
     }
 }
 
+@mixin big-box-design {
+    padding: 25px 10px;
+    box-sizing: border-box;
+    box-shadow: $big-box-shadow;
+    background-color: rgb(255, 255, 255);
+}
+
+//HEADER STUFF//
 
 //FOOTER STUFF//
 #wrapper-footer {
@@ -30,16 +60,4 @@
 #full-width-page-wrapper {
 	padding-top: 0;
     padding-bottom: 0;
-}
-
-.row-dark {
-    background-color: #343a40;
-    color: #fff;
-    font-weight: 400;
-    font-size: 1.25em;
-}
-
-.paragraph-skinny {
-    max-width: 900px;
-    margin: 0 auto;
 }
