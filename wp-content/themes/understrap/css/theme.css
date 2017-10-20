@@ -10026,73 +10026,85 @@ a.skip-link {
   background-position: 30% 40%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 70vh;
+  height: 80vh;
   width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   color: white;
-  -webkit-box-shadow: 0px 5px 40px #0f0f0f;
-          box-shadow: 0px 5px 40px #0f0f0f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
-  padding-left: 30vw;
   position: relative;
-  overflow: hidden;
-  box-sizing: border-box; }
-  .home-jumbotron .container .hero-heading h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    text-transform: uppercase; }
-  .home-jumbotron .container .hero-heading p {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 2em;
-    background-color: rgba(0, 0, 0, 0.2);
-    display: block;
-    padding: 5px 5vw;
-    margin-left: -100%;
-    margin-right: -100%; }
-  .home-jumbotron .container .hero-heading .cta-hero {
-    display: inline-block;
-    background-color: #18d34b;
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    color: #fff;
-    padding: 5px 2vw;
-    line-height: 2;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    font-weight: 400;
-    font-size: 1.2em;
-    -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
-    .home-jumbotron .container .hero-heading .cta-hero:hover {
-      text-decoration: none;
-      -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-              box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  overflow: hidden; }
+  .home-jumbotron .hero-heading {
+    position: relative;
+    z-index: 1;
+    padding-right: 30%; }
+    .home-jumbotron .hero-heading h1 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 4em; }
+    .home-jumbotron .hero-heading p {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 2em;
+      background-color: rgba(0, 0, 0, 0.2);
+      display: block;
+      padding: 5px 5vw;
+      width: 200vw; }
+    .home-jumbotron .hero-heading .cta-hero {
+      display: inline-block;
+      background-color: #18d34b;
+      -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      color: #fff;
+      padding: 5px 2.5vw;
+      line-height: 2;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 0 auto;
+      font-weight: 400;
+      font-size: 1.2em;
+      -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+      .home-jumbotron .hero-heading .cta-hero:hover {
+        text-decoration: none;
+        -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+                box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
   .home-jumbotron .hero-form {
+    background-color: lightcoral;
     color: #000;
-    max-width: 400px;
-    max-height: 500px;
-    position: absolute;
-    bottom: 0;
-    left: 10%;
     padding: 25px 10px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    background-color: white; }
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    margin-left: 25%; }
+    .home-jumbotron .hero-form .form-title {
+      background-color: #007bff;
+      position: absolute;
+      width: 100%;
+      padding: 10px 5px;
+      margin-bottom: 0;
+      top: 0;
+      left: 0;
+      -webkit-transform: translate(0, -100%);
+              transform: translate(0, -100%); }
     .home-jumbotron .hero-form form {
       height: 100%;
       display: -webkit-box;
@@ -10110,7 +10122,7 @@ a.skip-link {
         -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
                 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
         color: #fff;
-        padding: 5px 2vw;
+        padding: 5px 2.5vw;
         line-height: 2;
         text-align: center;
         text-transform: uppercase;
@@ -10125,23 +10137,33 @@ a.skip-link {
           text-decoration: none;
           -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
                   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
-        .home-jumbotron .hero-form form button:hover {
-          -webkit-box-shadow: none;
-                  box-shadow: none; }
+      .home-jumbotron .hero-form form .form-group input, .home-jumbotron .hero-form form .wpcf7 .wpcf7-form p input, .wpcf7 .wpcf7-form .home-jumbotron .hero-form form p input {
+        margin-top: 0; }
 
-#emailHelp {
-  color: #fff !important; }
+@media screen and (min-width: 1400px) {
+  .home-jumbotron {
+    height: 50vh; }
+    .home-jumbotron .hero-heading {
+      padding-right: 20%; }
+    .home-jumbotron .hero-form {
+      margin-left: 15%; } }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 960px) {
+  .hero-form {
+    display: none; }
   .home-jumbotron {
     background-image: url(../img/home-hero-mobile.jpg);
     background-position: center center;
-    padding-left: 0; }
+    padding-left: 0;
+    height: 50vh; }
+    .home-jumbotron .hero-heading {
+      padding-right: 0; }
+      .home-jumbotron .hero-heading h1 {
+        font-size: 3em; } }
+
+@media screen and (max-width: 480px) {
   .slogan {
-    font-size: 6px;
-    color: black; }
-  .hero-form {
-    display: none; } }
+    font-size: 1.25em !important; } }
 
 /*
 * Use existing Bootstrap 4 classes and

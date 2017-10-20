@@ -14,7 +14,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php include 'inc/home-hero.php'; ?>
+<?php include 'inc/home-hero2.php'; ?>
 
 
 <?php get_footer(); ?>
