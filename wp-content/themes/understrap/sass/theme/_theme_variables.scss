@@ -3,6 +3,8 @@
 // Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
 
 //VARIBLES//
+$custom-green: #18d34b;
+
 $big-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 $small-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -14,7 +16,7 @@ $small-box-hover: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 //MIXINS//
 @mixin small-box-design {
     display: inline-block;
-    background-color: #18d34b;
+    background-color: $custom-green;
     box-shadow: $small-box-shadow;
     color: #fff;
     padding: 5px 2.5vw;
@@ -36,7 +38,7 @@ $small-box-hover: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     padding: 25px 10px;
     box-sizing: border-box;
     box-shadow: $big-box-shadow;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
 }
 
 //HEADER STUFF//
