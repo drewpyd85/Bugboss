@@ -15,14 +15,10 @@
                 
                 <div class="col hero-heading">
 
-                    <span class="display-3">The Bug Boss</span>
-                    <h1 class="slogan">Ocala's Best Pest Services</h1>
-                    <ul>
-                        <li><img src="http://www.fillmurray.com/100/100" alt=""></li>
-                        <li><img src="http://www.fillmurray.com/100/100" alt=""></li>
-                        <li><img src="http://www.fillmurray.com/100/100" alt=""></li>
-                    </ul>
-                    <a href="#" class="cta-hero rounded">Call Now</a>
+                    <span class="title">The Bug Boss</span>
+                    <h1>Ocala's Best <br>Pest Control Services</h1>
+                    <a href="#" class="cta-hero rounded"><i class="fa fa-phone fa-lg"></i> Call Now</a>
+                    <p>Exterminating household pest for over 30 years</p>
                     
                 </div>
                 

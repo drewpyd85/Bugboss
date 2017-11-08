@@ -1,0 +1,25 @@
+.guarantee-wrapper {
+    background-color: aliceblue;
+}
+
+.guarantee-content {
+    color: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    
+    .form-title {
+        color: #000 !important;
+    }
+}

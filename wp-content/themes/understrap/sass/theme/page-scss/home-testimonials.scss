@@ -1,0 +1,63 @@
+.about-ribbon {
+    background-color: #dddddd;
+    background-image: url(../img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 40% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.testimonials {
+    
+    .test-slide {
+        width: 100%;
+        position: relative;
+        outline: none !important;
+        
+        .avatar {
+            border-radius: 100%;
+            margin: 1rem auto;
+        }
+        
+        p {
+            position: relative;
+            margin: 1rem auto;
+            padding: 3rem 5px;
+            box-sizing: border-box;
+            max-width: 960px;
+            text-align: center;
+            font-weight: 600;
+            background-color: rgba(0, 0, 0, 0.5);
+            
+            .quote:after {
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: 0;
+                left: 0;
+                font-family: FontAwesome;
+                content: "\f10d";
+                font-size: 75px;
+                color: rgba(255, 255, 255, 0.5);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    
+    .test-slide {
+        
+        p {
+            width: 100%;
+        }
+    }
+    
+    .quote:after {
+        display: none;
+    }
+    
+}

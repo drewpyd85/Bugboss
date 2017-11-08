@@ -10041,10 +10041,12 @@ a.skip-link {
   display: block; }
 
 .home-jumbotron {
-  background-image: url(../img/home-hero2.jpg);
+  min-height: 500px;
+  background-image: url(../img/home-hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-color: #fff;
+  background-position: center;
   width: 100%;
   color: white;
   padding: 0;
@@ -10061,8 +10063,7 @@ a.skip-link {
       -ms-flex-pack: center;
           justify-content: center; }
   .home-jumbotron .hero-heading {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 25px 0px;
+    padding: 25px 5px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     display: -webkit-box;
@@ -10072,35 +10073,22 @@ a.skip-link {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     -ms-flex-line-pack: center;
         align-content: center;
     text-align: center;
-    margin-left: 30%; }
-    .home-jumbotron .hero-heading span {
-      font-family: 'Raleway', sans-serif;
+    margin-left: 40%;
+    font-family: 'Raleway', sans-serif; }
+    .home-jumbotron .hero-heading .title {
       font-weight: 900;
-      text-transform: uppercase; }
-    .home-jumbotron .hero-heading h1 {
-      font-family: 'Raleway', sans-serif;
-      font-weight: 500; }
-    .home-jumbotron .hero-heading ul {
-      width: 100%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
-      list-style-type: none;
-      padding: 0; }
+      text-transform: uppercase;
+      font-size: 72px;
+      text-shadow: 3px 3px 10px black; }
     .home-jumbotron .hero-heading .cta-hero {
       display: inline-block;
       background-color: #18d34b;
@@ -10115,18 +10103,32 @@ a.skip-link {
       font-weight: 400;
       font-size: 1.2em;
       -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      margin: 1rem auto;
+      width: 300px; }
       .home-jumbotron .hero-heading .cta-hero:hover {
         text-decoration: none;
         -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
                 box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+    .home-jumbotron .hero-heading p {
+      margin-top: 1rem;
+      font-size: 24px;
+      text-shadow: 0px 0px 20px white; }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 995px) {
   .home-jumbotron .hero-heading {
-    width: 100%;
     margin-left: 0; }
-    .home-jumbotron .hero-heading h2 {
-      font-size: 1.25em; } }
+    .home-jumbotron .hero-heading p {
+      font-size: 18px; } }
+
+@media screen and (max-width: 530px) {
+  .home-jumbotron {
+    background-image: url(../img/home-hero-mobile.jpg); }
+    .home-jumbotron .hero-heading .title {
+      font-size: 50px; } }
+
+.slider-button-bg {
+  background-color: #18d34b; }
 
 .bug-tile {
   height: 100px;
@@ -10142,14 +10144,122 @@ a.skip-link {
           justify-content: center;
   background-color: #18d34b;
   color: #fff;
-  font-size: 1em;
-  font-weight: 900; }
+  font-size: 1.5em;
+  font-weight: 900;
+  cursor: pointer; }
+
+.slide-title {
+  background-color: black;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 7px; }
 
 .tile-active {
   background-color: #13a53b; }
 
-.slide-hidden {
-  display: none; }
+.custom-hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(0, 0, 0, 0.75)), to(transparent));
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); }
+
+@media screen and (max-width: 530px) {
+  .slider-buttons {
+    margin: 0; }
+  .bug-tile {
+    height: 50px;
+    font-size: 1em; } }
+
+.guarantee-wrapper {
+  background-color: aliceblue; }
+
+.guarantee-content {
+  color: #000;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.hero-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000; }
+  .hero-form .form-title {
+    color: #000 !important; }
+
+.about-ribbon {
+  background-color: #dddddd;
+  background-image: url(../img/about-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 40% 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white; }
+
+.testimonials .test-slide {
+  width: 100%;
+  position: relative;
+  outline: none !important; }
+  .testimonials .test-slide .avatar {
+    border-radius: 100%;
+    margin: 1rem auto; }
+  .testimonials .test-slide p {
+    position: relative;
+    margin: 1rem auto;
+    padding: 3rem 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    max-width: 960px;
+    text-align: center;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5); }
+    .testimonials .test-slide p .quote:after {
+      position: absolute;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      top: 0;
+      left: 0;
+      font-family: FontAwesome;
+      content: "\f10d";
+      font-size: 75px;
+      color: rgba(255, 255, 255, 0.5); }
+
+@media screen and (max-width: 960px) {
+  .test-slide p {
+    width: 100%; }
+  .quote:after {
+    display: none; } }
 
 /*
 * Use existing Bootstrap 4 classes and

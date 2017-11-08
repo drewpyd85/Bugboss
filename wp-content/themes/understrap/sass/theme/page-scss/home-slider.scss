@@ -1,0 +1,44 @@
+.slider-button-bg {
+    background-color: $custom-green;
+}
+
+.bug-tile {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $custom-green;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.slide-title {
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+.tile-active {
+    background-color: darken($custom-green, 10%);
+}
+
+.custom-hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+@media screen and (max-width: 530px) {
+    
+    .slider-buttons {
+        margin: 0;
+    }
+    
+    .bug-tile {
+        height: 50px;
+        font-size: 1em;
+    }
+}

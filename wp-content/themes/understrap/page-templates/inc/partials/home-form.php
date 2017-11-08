@@ -16,7 +16,7 @@
         <fieldset class="form-group">
             <p>I Need Help With</p>
 
-            <div class="form-group row m-0">
+            <div class="form-group row m-0 form-check-boxes">
                 <label class="custom-control custom-checkbox">
                   <input type="checkbox" class="custom-control-input">
                   <span class="custom-control-indicator"></span>

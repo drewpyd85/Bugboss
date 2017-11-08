@@ -3863,23 +3863,40 @@ var Popover = function ($) {
 	}
 })();
 
-$(document).ready(function(){
+jQuery(document).ready(function(){
   
-    $( ".bug-tile" ).on( "click", function() {
+    jQuery( ".bug-tile" ).on( "click", function() {
         
-        $('.bug-tile').not(this).removeClass('tile-active');
-        $(this).toggleClass('tile-active');
+        jQuery('.bug-tile').not(this).removeClass('tile-active');
+        jQuery(this).addClass('tile-active');
         
     });
     
-    $('#roach-btn').click(function(){
-        $(this).data('clicked', true);
+    jQuery('#roach-button').click(function() {
+        jQuery('#termite-slide').hide();
+        jQuery('#rodent-slide').hide();
+        jQuery('#roach-slide').show();
     });
     
-    if(jQuery('#roach-btn').data('clicked')) {
-        $('.roach-slide').toggleClass('slide-hidden');
-    } else {
-        
-    }
+    jQuery('#termite-button').click(function() {
+        jQuery('#roach-slide').hide();
+        jQuery('#rodent-slide').hide();
+        jQuery('#termite-slide').show();
+    });
     
+    jQuery('#rodent-button').click(function() {
+        jQuery('#termite-slide').hide();
+        jQuery('#roach-slide').hide();
+        jQuery('#rodent-slide').show();
+    });
+    
+    $('.testimonials').slick({
+        autoplay: true,
+        autoplaySpeed: 1000,
+        dots: false,
+        arrows: false,
+        speed: 10000,
+        pauseOnFocus: false,
+        touchMove: false,
+    });
 })
