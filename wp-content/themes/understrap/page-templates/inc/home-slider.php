@@ -7,12 +7,6 @@
 
 ?>
 
-<div class="container-fluid slider">
-    
-    
-    
-</div>
-
 <div class="container-fluid slider-button-bg">
     
     <div class="container">
@@ -29,15 +23,11 @@
     
 </div>
 
-<div class="container my-4">
+<div class="container-fluid slider-bg">
+    
+    <div class="container my-4">
     
     <div class="row align-items-center" id="roach-slide">
-        
-        <div class="col-md-6">
-            
-            <img src="<?php bloginfo('template_url'); ?>/img/roach.jpg" alt="" style="background-color:black;">
-            
-        </div>
         
         <div class="col-md-6">
            
@@ -46,20 +36,26 @@
             
         </div>
         
+        <div class="col-md-6">
+            
+            <img src="<?php bloginfo('template_url'); ?>/img/roach.jpg" alt="">
+            
+        </div>
+        
     </div>
     
     <div class="row align-items-center" id="termite-slide" style="display:none;">
         
         <div class="col-md-6">
-            
-            <img src="<?php bloginfo('template_url'); ?>/img/termite.jpg" alt="" style="background-color:black;">
+           
+            <h2 class="text-center slide-title">Termites</h2>
+            <p class="text-center">TERMITE ipsum dolor sit amet, consectetur adipisicing elit. Voluptate praesentium tenetur distinctio omnis. Animi, amet, dolores. Porro repellendus omnis rerum, laboriosam tempora nisi, minima labore rem, enim dolorem alias deserunt! Lorem ipsum dolor sit amet, consectetur adipisicingit! Distinctio, quas, molestias. ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptates, fugit delectus! Neque porro a numquam quae, delectus quia minima obcaecati incidunt provident pariatur vitae molestias, libero omnis harum adipisci.</p>
             
         </div>
         
         <div class="col-md-6">
-           
-            <h2 class="text-center slide-title">Termites</h2>
-            <p class="text-center">TERMITE ipsum dolor sit amet, consectetur adipisicing elit. Voluptate praesentium tenetur distinctio omnis. Animi, amet, dolores. Porro repellendus omnis rerum, laboriosam tempora nisi, minima labore rem, enim dolorem alias deserunt! Lorem ipsum dolor sit amet, consectetur adipisicingit! Distinctio, quas, molestias. ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptates, fugit delectus! Neque porro a numquam quae, delectus quia minima obcaecati incidunt provident pariatur vitae molestias, libero omnis harum adipisci.</p>
+            
+            <img src="<?php bloginfo('template_url'); ?>/img/termite.jpg" alt="">
             
         </div>
         
@@ -69,17 +65,19 @@
         
         <div class="col-md-6">
             
-            <img src="<?php bloginfo('template_url'); ?>/img/rodent.jpg" alt="" style="background-color:black;">
-            
-        </div>
-        
-        <div class="col-md-6">
-            
             <h2 class="text-center slide-title">Rodents</h2>
             <p class="text-center">Rodent ipsum dolor sit amet, consectetur adipisicing elit. Voluptate praesentium tenetur distinctio omnis. Animi, amet, dolores. Porro repellendus omnis rerum, laboriosam tempora nisi, minima labore rem, enim dolorem alias deserunt! Lorem ipsum dolor sit amet, consectetur adipisicingit! Distinctio, quas, molestias. ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptates, fugit delectus! Neque porro a numquam quae, delectus quia minima obcaecati incidunt provident pariatur vitae molestias, libero omnis harum adipisci.</p>
             
         </div>
         
+         <div class="col-md-6">
+            
+            <img src="<?php bloginfo('template_url'); ?>/img/rodent.jpg" alt="">
+            
+        </div>
+        
     </div>
+    
+</div>
     
 </div>

@@ -38,7 +38,7 @@
 
         </fieldset>
 
-        <button type="submit" class="btn bg-info text-white">Submit</button>
+        <button type="submit" class="btn bg-info text-white">Send Now</button>
 
     </form>
 

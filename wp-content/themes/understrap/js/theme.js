@@ -3892,10 +3892,10 @@ jQuery(document).ready(function(){
     
     $('.testimonials').slick({
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 5000,
         dots: false,
         arrows: false,
-        speed: 10000,
+        speed: 2000,
         pauseOnFocus: false,
         touchMove: false,
     });

@@ -1,9 +1,9 @@
 .guarantee-wrapper {
-    background-color: aliceblue;
+    background-color: darken($custom-green,10%);
 }
 
 .guarantee-content {
-    color: #000;
+    color: $custom-white;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -13,13 +13,32 @@
 
 
 .hero-form {
+    background-color: $custom-white;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 13px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #000;
+    @include big-box-design;
     
     .form-title {
         color: #000 !important;
+    }
+    
+     form {
+         
+         .custom-control-indicator {
+             background-color: $custom-green !important;
+         }
+        
+        button {
+            @include small-box-design;
+            display: block;
+            margin: 0 auto !important;
+            background-color: $custom-green !important;
+        }
     }
 }

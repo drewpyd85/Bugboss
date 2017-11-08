@@ -1,13 +1,17 @@
 .slider-button-bg {
-    background-color: $custom-green;
+    background-color: darken($custom-green, 10%);
+    box-shadow: $small-box-shadow;
+}
+
+.slider-bg {
 }
 
 .bug-tile {
-    height: 100px;
+    height: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: $custom-green;
+    background-color: darken($custom-green, 10%);
     color: #fff;
     font-size: 1.5em;
     font-weight: 900;
@@ -15,14 +19,14 @@
 }
 
 .slide-title {
-    background-color: black;
-    color: #fff;
-    padding: 1rem;
-    border-radius: 7px;
+
+    color: $custom-green;
+    text-transform: uppercase;
+    font-size: 50px;
 }
 
 .tile-active {
-    background-color: darken($custom-green, 10%);
+    background-color: $custom-green;
 }
 
 .custom-hr {

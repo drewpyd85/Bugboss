@@ -25,7 +25,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="site-info">
                     
-                        <p>The Bug Boss ®2017</p>
+                        <p>The Bug Boss <?php echo date("Y"); ?></p>
+                        <img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="">
                     
 					</div><!-- .site-info -->
 

@@ -35,7 +35,7 @@
             
             .quote:after {
                 position: absolute;
-                transform: translate(-50%, -50%);
+                transform: translate(-50%, -35%);
                 top: 0;
                 left: 0;
                 font-family: FontAwesome;
@@ -43,7 +43,27 @@
                 font-size: 75px;
                 color: rgba(255, 255, 255, 0.5);
             }
+            
+            .quote2:after {
+                position: absolute;
+                transform: translate(50%, 35%);
+                bottom: 0;
+                right: 0;
+                font-family: FontAwesome;
+                content: "\f10e";
+                font-size: 75px;
+                color: rgba(255, 255, 255, 0.5);
+            }
         }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .quote:after {
+        content: none !important;
+    }
+    .quote2:after {
+        content: none !important;
     }
 }
 

@@ -13,12 +13,13 @@
 
         <div class="row py-5 guarantee-content">
            
-            <div class="col-6">
+            <div class="col-sm-6">
                 <?php include 'partials/home-form.php'; ?>
             </div>
             
-            <div class="col-6">
-                <h1>100% SATISFACTION GUARANTEE</h1>
+            <div class="col-sm-6">
+                <h3>100% Satisfaction Guaranteed</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea mollitia quaerat veritatis iusto hic quibusdam enim sapiente, nobis voluptate, atque rerum reprehenderit, minus. Illo cumque tenetur incidunt sint laboriosam iusto!</p>
             </div>
         </div>
 

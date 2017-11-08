@@ -1,0 +1,33 @@
+.ipm-section {
+    min-height: 500px;
+    background-image: url(../img/bugguy.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right top;
+    
+    .container {
+        
+        .row {
+        
+            div {
+                color: #000;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1850px) {
+    .ipm-section {
+        background-size: contain;
+        background-position: top right;
+    }
+}
+
+@media screen and (max-width: 1052px) {
+    
+    .ipm-section {
+        background-size: cover;
+        background-position: top left;
+    }
+}

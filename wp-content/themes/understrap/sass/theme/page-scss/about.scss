@@ -1,0 +1,18 @@
+.about-page {
+    height: 250px;
+    background-image: url(../img/about-bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25% 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .about-page {
+        height: 150px;
+        background-position: 50% 90%;
+    }
+}
