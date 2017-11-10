@@ -47,11 +47,22 @@ $small-box-hover: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 //FOOTER STUFF//
 #wrapper-footer {
     background-color: darken(#343a40, 10%);
-}
-
-.site-info {
-    text-align: center;
     color: #fff;
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .custom-svg {
+        max-width: 200px;
+        height: auto;
+    }
 }
 
 //BODY STUFF//

@@ -1,9 +1,6 @@
 .slider-button-bg {
     background-color: darken($custom-green, 10%);
-    box-shadow: $small-box-shadow;
-}
-
-.slider-bg {
+    box-shadow: $big-box-shadow;
 }
 
 .bug-tile {
@@ -19,7 +16,7 @@
 }
 
 .slide-title {
-
+    font-weight: 900;
     color: $custom-green;
     text-transform: uppercase;
     font-size: 50px;
@@ -36,10 +33,6 @@
 }
 
 @media screen and (max-width: 530px) {
-    
-    .slider-buttons {
-        margin: 0;
-    }
     
     .bug-tile {
         height: 50px;

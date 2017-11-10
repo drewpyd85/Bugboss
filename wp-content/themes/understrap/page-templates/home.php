@@ -15,6 +15,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <?php include 'inc/home-hero.php'; ?>
+<?php include 'inc/home-intro.php'; ?>
 <?php include 'inc/home-slider.php'; ?>
 <?php include 'inc/home-guarantee.php'; ?>
 <?php include 'inc/home-ipm.php'; ?>

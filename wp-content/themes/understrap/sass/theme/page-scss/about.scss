@@ -1,4 +1,4 @@
-.about-page {
+.about-header {
     height: 250px;
     background-image: url(../img/about-bg2.jpg);
     background-size: cover;
@@ -9,10 +9,65 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+.about-content {
+    background-color: darken($custom-green, 10%);
+    background-image: url(../img/man.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80% 100%;
+    color: #fff;
+}
+
+@media screen and (max-width: 2230px) {
     
-    .about-page {
+    .about-content {
+        background-position: 85% 100%;
+    }
+}
+
+@media screen and (max-width: 1990px) {
+    
+    .about-content {
+        background-position: 90% 100%;
+    }
+}
+
+@media screen and (max-width: 1790px) {
+    
+    .about-content {
+        background-position: 95% 100%;
+    }
+}
+
+@media screen and (max-width: 1640px) {
+    
+    .about-content {
+        background-position: 100% 100%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    
+    .about-content {
+        background-position: 105% 100%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    
+    .about-content {
+        background-position: 110% 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    .about-header {
         height: 150px;
         background-position: 50% 90%;
+    }
+    
+    .about-content {
+        background-image: none;
     }
 }

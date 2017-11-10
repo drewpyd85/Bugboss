@@ -7,9 +7,9 @@
 
 ?>
 
-<div class="container-fluid slider-button-bg">
+<!--<div class="container-fluid slider-button-bg">-->
     
-    <div class="container">
+    <div class="container slider-button-bg">
     
         <div class="row slider-buttons">
 
@@ -21,7 +21,7 @@
     
     </div>
     
-</div>
+<!--</div>-->
 
 <div class="container-fluid slider-bg">
     

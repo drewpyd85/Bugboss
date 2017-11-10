@@ -16,7 +16,7 @@
             
             <div class="col-md-10 py-5">
                 
-                <h3>Applying Integrated Pest Management</h3>
+                <h3>Integrated Pest Management</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptas a, rerum earum aut accusantium ex eos voluptatem laudantium nihil ratione, mollitia id aspernatur, et itaque impedit porro consequatur facere.</p>
                 <ul>
                     <li>Identify your pest correctly</li>
