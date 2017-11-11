@@ -26,6 +26,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 <body <?php body_class(); ?>>
 
 <div class="hfeed site" id="page">
+    
+<div class="container-fluid sticky-nav">
+    <div class="row justify-content-between">
+        <div class="col-4"><span>352-843-4680</span></div>
+        <div class="col-4 text-right"><span>contact@bugbossflroida.com</span></div>
+    </div>
+</div>
 
 	<!-- ******************* The Navbar Area ******************* -->
 	<div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">

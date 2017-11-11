@@ -5,6 +5,7 @@
 //VARIBLES//
 $custom-green: #18d34b;
 $custom-white: #FEFEFE;
+$custom-gray: #343A40;
 
 $big-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
@@ -44,6 +45,40 @@ $small-box-hover: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 //HEADER STUFF//
 
+.sticky-nav {
+    background-color: darken($custom-gray, 10%);
+    color: $custom-green;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    box-shadow: $small-box-shadow;
+    
+    .col-4:nth-child(1) {
+        &:before {
+            font-family: FontAwesome;
+            content: "\f095";
+            padding-right: 15px;
+        }
+    }
+    
+    .col-4:nth-child(2) {
+        &:before {
+            font-family: FontAwesome;
+            content: "\f0e0";
+            padding-right: 15px;
+        }
+    }
+}
+
+#wrapper-navbar {
+    margin-top: 48px !important;
+}
+
 //FOOTER STUFF//
 #wrapper-footer {
     background-color: darken(#343a40, 10%);
@@ -60,8 +95,9 @@ $small-box-hover: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
     
     .custom-svg {
-        max-width: 200px;
+        max-width: 125px;
         height: auto;
+        opacity: 0.7;
     }
 }
 
