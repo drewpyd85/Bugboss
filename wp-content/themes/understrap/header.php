@@ -26,11 +26,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 <body <?php body_class(); ?>>
 
 <div class="hfeed site" id="page">
-    
+ 
 <div class="container-fluid sticky-nav">
-    <div class="row justify-content-between">
-        <div class="col-4"><span>352-843-4680</span></div>
-        <div class="col-4 text-right"><span>contact@bugbossflroida.com</span></div>
+    <div class="container">
+        <div class="row justify-content-between text-center">
+            <div class="col-md-6"><a href="tel:3528434680">(352) 843-4680</a></div>
+            <div class="col-md-6"><a href="mailto:contact@bugbussflorida.com">contact@bugbussflorida.com</a></div>
+        </div>
     </div>
 </div>
 

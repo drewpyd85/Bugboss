@@ -3900,3 +3900,26 @@ jQuery(document).ready(function(){
         touchMove: false,
     });
 })
+
+(function ($) {
+  $(document).ready(function(){
+    
+	// hide .navbar first
+	$(".sticky-nav").hide();
+	
+	// fade in .navbar
+	$(function () {
+		$(window).scroll(function () {
+            // set distance user needs to scroll before we fadeIn navbar
+			if ($(this).scrollTop() > 100) {
+				$('.sticky-nav').fadeIn();
+			} else {
+				$('.sticky-nav').fadeOut();
+			}
+		});
+
+	
+	});
+
+});
+  }(jQuery));
