@@ -1,5 +1,9 @@
 .contact-content {
     background-color:darken($custom-green, 10%);
+    background-image: url(../img/lawn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
     color: #fff;
     
     ul {

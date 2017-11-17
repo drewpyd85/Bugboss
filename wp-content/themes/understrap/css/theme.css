@@ -10347,7 +10347,7 @@ a.skip-link {
     padding: 3rem 5px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    max-width: 960px;
+    max-width: 700px;
     text-align: center;
     font-weight: 600;
     background-color: rgba(0, 0, 0, 0.5); }
@@ -10442,6 +10442,10 @@ a.skip-link {
 
 .contact-content {
   background-color: #13a53b;
+  background-image: url(../img/lawn.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
   color: #fff; }
   .contact-content ul {
     list-style: none;
