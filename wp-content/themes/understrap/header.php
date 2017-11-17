@@ -30,8 +30,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="container-fluid sticky-nav">
     <div class="container">
         <div class="row justify-content-between text-center">
-            <div class="col-md-6"><a href="tel:3528434680">(352) 843-4680</a></div>
-            <div class="col-md-6"><a href="mailto:contact@bugbussflorida.com">contact@bugbussflorida.com</a></div>
+            <div class="col-md-4"><a href="tel:3528434680"><i class="fa fa-phone fa-lg"> </i> (352) 843-4680</a></div>
+            <div class="col-md-4"><a href="#"><i class="fa fa-facebook fa-lg"> </i> Like and Share For Discount</a></div>
+            <div class="col-md-4"><a href="mailto:contact@bugbussflorida.com"><i class="fa fa-envelope fa-lg"> </i> contact@bugbussflorida.com</a></div>
         </div>
     </div>
 </div>

@@ -27,7 +27,7 @@
     
     <div class="container my-4">
     
-    <div class="row align-items-center" id="roach-slide">
+    <div class="row align-items-center bug-slide" id="roach-slide">
         
         <div class="col-md-6">
            
@@ -38,13 +38,13 @@
         
         <div class="col-md-6">
             
-            <img src="<?php bloginfo('template_url'); ?>/img/roach.jpg" alt="">
+            <img src="<?php bloginfo('template_url'); ?>/img/bug-boss-roach.jpg" alt="Roaches">
             
         </div>
         
     </div>
     
-    <div class="row align-items-center" id="termite-slide" style="display:none;">
+    <div class="row align-items-center bug-slide" id="termite-slide" style="display:none;">
         
         <div class="col-md-6">
            
@@ -55,13 +55,13 @@
         
         <div class="col-md-6">
             
-            <img src="<?php bloginfo('template_url'); ?>/img/termite.jpg" alt="">
+            <img src="<?php bloginfo('template_url'); ?>/img/bug-boss-termite.jpg" alt="Termites">
             
         </div>
         
     </div>
     
-    <div class="row align-items-center" id="rodent-slide" style="display:none;">
+    <div class="row align-items-center bug-slide" id="rodent-slide" style="display:none;">
         
         <div class="col-md-6">
             
@@ -72,7 +72,7 @@
         
          <div class="col-md-6">
             
-            <img src="<?php bloginfo('template_url'); ?>/img/rodent.jpg" alt="">
+            <img src="<?php bloginfo('template_url'); ?>/img/bug-boss-rodent.jpg" alt="Rodents">
             
         </div>
         

@@ -3864,6 +3864,18 @@ var Popover = function ($) {
 })();
 
 jQuery(document).ready(function(){
+    
+//    jQuery(".bug-tile").mouseenter (function() {
+//        
+//        $(this).css("border-bottom", "1px solid black");
+//        
+//    });
+//    
+//    jQuery(".bug-tile").mouseleave (function() {
+//        
+//        $(this).css("border-bottom", "none");
+//        
+//    });
   
     jQuery( ".bug-tile" ).on( "click", function() {
         

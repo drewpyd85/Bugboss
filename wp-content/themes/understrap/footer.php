@@ -18,10 +18,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="container">
         
         <div class="row py-3 text-center justify-content-center">
-            <div class="col-3 col-md-2"><img src="<?php bloginfo('template_url'); ?>/img/exp.svg" alt="" class="custom-svg"></div>
-            <div class="col-3 col-md-2"><img src="<?php bloginfo('template_url'); ?>/img/certified.svg" alt="" class="custom-svg"></div>
-            <div class="col-3 col-md-2"><img src="<?php bloginfo('template_url'); ?>/img/satisfaction.svg" alt="" class="custom-svg"></div>
-            <div class="col-3 col-md-2"><img src="<?php bloginfo('template_url'); ?>/img/insured.svg" alt="" class="custom-svg"></div>
+            <div class="col-3 col-md-2"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-certified.svg" alt="State Certified" class="custom-svg"></div>
+            <div class="col-3 col-md-2"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-experience.svg" alt="Over 30 Years Experiene" class="custom-svg"></div>
+            <div class="col-3 col-md-2"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-insured.svg" alt="Licensed and Insured" class="custom-svg"></div>
+            <div class="col-3 col-md-2"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-satisfaction.svg" alt="Satisfaction Guaranteed" class="custom-svg"></div>
         </div>
 
 		<div class="row text-center">
@@ -45,16 +45,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-4">
                     
                 <p>The Bug Boss <?php echo date("Y"); ?></p>
-                <img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="">
+                <img src="<?php bloginfo('template_url'); ?>/img/bug-boss-logo.png" alt="The Bug Boss Logo">
 
 			</div>
 			
 			<div class="col-4">  
 			    
 			    <ul>
-			        <li class="nav-link text-center"><a href="">Number</a></li>
+			        <li class="nav-link text-center"><a href="">Call</a></li>
 			        <li class="nav-link text-center"><a href="">Email</a></li>
-			        <li class="nav-link text-center"><a href="">Address</a></li>
+			        <li class="nav-link text-center"><a href="">Find Us</a></li>
 			    </ul>
 			    
 			</div>

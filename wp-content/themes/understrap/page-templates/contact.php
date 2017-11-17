@@ -32,8 +32,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                 
                 <ul>
                     <li>The Bug Boss, LLC</li>
-                    <li><a href="tel:3522222222"> Phone</a></li>
-                    <li><a href="mailto:email.com"> Email</a></li>
+                    <li><a href="tel:3522222222"> (352) 843-4680</a></li>
+                    <li><a href="mailto:email.com"> Contact@bugbossflorida.com</a></li>
                     <li> 43 Teak Run, Ocala, FL 34472</li>
                 </ul>
                 

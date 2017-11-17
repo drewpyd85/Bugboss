@@ -38,10 +38,10 @@
             
             <div class="row">
                 
-                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/fire_icon.png" alt=""></div>
-                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/EMS_icon.png" alt=""></div>
-                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/police_icon.png" alt=""></div>
-                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/military_icon.png" alt=""></div>
+                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-fire-discount.png" alt="Firefighter Discounts"></div>
+                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-ems-discount.png" alt="EMS Discounts"></div>
+                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-police-discount.png" alt="Police Discounts"></div>
+                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-military-discount.png" alt="Military Discounts"></div>
                 
             </div>
         

@@ -9,7 +9,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 999 !important;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
   .sticky-nav .container .row div a {
@@ -21,12 +21,8 @@
     cursor: pointer; }
     .sticky-nav .container .row div a:hover {
       color: white; }
-  .sticky-nav .container .row div:nth-child(1):before {
-    font-family: FontAwesome;
-    content: "\f095"; }
-  .sticky-nav .container .row div:nth-child(2):before {
-    font-family: FontAwesome;
-    content: "\f0e0"; }
+    .sticky-nav .container .row div a i {
+      padding-right: 5px; }
 
 #wrapper-footer {
   background-color: #1d2124;
@@ -10082,7 +10078,7 @@ a.skip-link {
 
 .home-jumbotron {
   min-height: 500px;
-  background-image: url(../img/home-hero.jpg);
+  background-image: url(../img/bug-boss-home-hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #fff;
@@ -10182,8 +10178,8 @@ a.skip-link {
 
 .slider-button-bg {
   background-color: #13a53b;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  -webkit-box-shadow: 0 0px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 0px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
 .bug-tile {
   height: 50px;
@@ -10266,8 +10262,8 @@ a.skip-link {
   color: #000;
   padding: 25px 10px;
   box-sizing: border-box;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 0px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 0px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   background-color: #fff; }
   .hero-form .form-title {
     color: #000 !important; }
@@ -10298,7 +10294,7 @@ a.skip-link {
 
 .ipm-section {
   min-height: 500px;
-  background-image: url(../img/bugguy.jpg);
+  background-image: url(../img/bug-boss-exterminator.jpg);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: right top; }
@@ -10317,7 +10313,7 @@ a.skip-link {
 
 .about-ribbon {
   background-color: #dddddd;
-  background-image: url(../img/about-bg.jpg);
+  background-image: url(../img/bug-boss-about-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -10490,8 +10486,8 @@ a.skip-link {
   color: #000;
   padding: 25px 10px;
   box-sizing: border-box;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 0px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 0px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   background-color: #fff; }
   .contact-form .form-title {
     color: #000 !important; }
