@@ -17,7 +17,7 @@
                 <?php include 'partials/home-form.php'; ?>
             </div>
             
-            <div class="col-sm-6">
+            <div class="col-sm-6 mt-3">
                 <h3>100% Satisfaction Guaranteed</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea mollitia quaerat veritatis iusto hic quibusdam enim sapiente, nobis voluptate, atque rerum reprehenderit, minus. Illo cumque tenetur incidunt sint laboriosam iusto!</p>
             </div>

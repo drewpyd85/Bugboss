@@ -18,6 +18,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 	<?php else : ?>
 <div class="col-md-4 widget-area" id="right-sidebar" role="complementary">
 	<?php endif; ?>
+
 <?php dynamic_sidebar( 'right-sidebar' ); ?>
 <?php include 'page-templates/inc/partials/contact-form.php'; ?>
 
