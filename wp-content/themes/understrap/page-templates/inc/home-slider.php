@@ -32,7 +32,7 @@
         <div class="col-md-6">
            
             <h2 class="text-center slide-title">Roaches</h2>
-            <p class="text-center">ROACH ipsum dolor sit amet, consectetur adipisicing elit. Voluptate praesentium tenetur distinctio omnis. Animi, amet, dolores. Porro repellendus omnis rerum, laboriosam tempora nisi, minima labore rem, enim dolorem alias deserunt! Lorem ipsum dolor sit amet, consectetur adipisicingit! Distinctio, quas, molestias. ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptates, fugit delectus! Neque porro a numquam quae, delectus quia minima obcaecati incidunt provident pariatur vitae molestias, libero omnis harum adipisci.</p>
+            <p class="text-center">Do you have a roach infestation? Not only do roaches cause social embarrassment, they are also detrimental to your health. They can act as carriers of disease and are capable of contaminating your home and even your food. Roaches can also trigger symptoms in patients with asthma. Our pest control experts can help you get rid of these critters for good!</p>
             
         </div>
         
@@ -49,7 +49,7 @@
         <div class="col-md-6">
            
             <h2 class="text-center slide-title">Termites</h2>
-            <p class="text-center">TERMITE ipsum dolor sit amet, consectetur adipisicing elit. Voluptate praesentium tenetur distinctio omnis. Animi, amet, dolores. Porro repellendus omnis rerum, laboriosam tempora nisi, minima labore rem, enim dolorem alias deserunt! Lorem ipsum dolor sit amet, consectetur adipisicingit! Distinctio, quas, molestias. ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptates, fugit delectus! Neque porro a numquam quae, delectus quia minima obcaecati incidunt provident pariatur vitae molestias, libero omnis harum adipisci.</p>
+            <p class="text-center">Don’t let termites ruin your home or place of business. Termites are small insects that love to eat wooden structures. They are highly destructive and can cause significant structural damage in short amounts of time. Save thousands of dollars in repairs and allow us to protect your most important investment!</p>
             
         </div>
         
@@ -66,7 +66,7 @@
         <div class="col-md-6">
             
             <h2 class="text-center slide-title">Rodents</h2>
-            <p class="text-center">Rodent ipsum dolor sit amet, consectetur adipisicing elit. Voluptate praesentium tenetur distinctio omnis. Animi, amet, dolores. Porro repellendus omnis rerum, laboriosam tempora nisi, minima labore rem, enim dolorem alias deserunt! Lorem ipsum dolor sit amet, consectetur adipisicingit! Distinctio, quas, molestias. ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptates, fugit delectus! Neque porro a numquam quae, delectus quia minima obcaecati incidunt provident pariatur vitae molestias, libero omnis harum adipisci.</p>
+            <p class="text-center">Rodents may look like harmless, innocent creatures but these pests can spread disease through their urine, droppings, and nesting materials! Rodent control is an individualized service that may require different approaches. Contact our pest control specialists today to develop your individualized plan!</p>
             
         </div>
         

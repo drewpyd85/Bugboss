@@ -19,7 +19,7 @@
             
             <div class="col-sm-6 mt-3">
                 <h3>100% Satisfaction Guaranteed</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea mollitia quaerat veritatis iusto hic quibusdam enim sapiente, nobis voluptate, atque rerum reprehenderit, minus. Illo cumque tenetur incidunt sint laboriosam iusto!</p>
+                <p>The Bug Boss is committed to providing the best pest control solutions in Ocala and The Villages! We guarantee that our services will be completed and performed to the best of our abilities. Our pest control solutions are 100% guaranteed results!</p>
             </div>
         </div>
 

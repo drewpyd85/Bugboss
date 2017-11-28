@@ -17,7 +17,7 @@
             <div class="col-md-10 py-5">
                 
                 <h3>Integrated Pest Management</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptas a, rerum earum aut accusantium ex eos voluptatem laudantium nihil ratione, mollitia id aspernatur, et itaque impedit porro consequatur facere.</p>
+                <p>Tired of being reactive instead of proactive? Contact our pest control experts today to discuss preventive pest control options today!</p>
                 <ul>
                     <li>Identify your pest correctly</li>
                     <li>Monitoring and assessing pest numbers and damage</li>
