@@ -1,0 +1,79 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: November 29, 2017 4:32 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.30
+WORDPRESS:	4.9
+PHP INFO:	7.1.10 | SAPI: apache2handler
+SERVER:		Apache/2.4.28 (Win32) OpenSSL/1.0.2l PHP/7.1.10 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 14MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:13 | filtered:0 | create:13 
+FILTERED: [] 
+SQL CREATED: 20171129_thebugboss_00fca623137ff97e7777171129163157_database.sql 
+SQL FILE SIZE: 614.41KB (629158) 
+SQL FILE TIME: 2017-11-29 16:32:36 
+SQL RUNTIME: 0.11 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  D:/xampp/htdocs/bugboss 
+ARCHIVE FILE: 20171129_thebugboss_00fca623137ff97e7777171129163157_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	134.83MB 
+STATS:	Dirs 2,654 | Files 18,569 
+SQL ADDED: 20171129_thebugboss_00fca623137ff97e7777171129163157_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 21223
+    [filename] => D:\xampp\htdocs\bugboss\wp-snapshots\tmp\20171129_thebugboss_00fca623137ff97e7777171129163157_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 66.92MB 
+ARCHIVE RUNTIME: 57.46 sec. 
+MEMORY STACK: 20MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [D:/xampp/htdocs/bugboss/wp-snapshots/tmp/20171129_thebugboss_00fca623137ff97e7777171129163157_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 614.41KB 
+Installer File: 443.31KB 
+Archive File: 66.92MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 64.71 sec.
+PEAK PHP MEMORY USED: 20MB
+DONE PROCESSING => 20171129_thebugboss November 29, 2017 4:33 pm
+ 
