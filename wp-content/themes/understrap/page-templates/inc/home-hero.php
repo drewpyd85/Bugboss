@@ -17,7 +17,7 @@
 
                     <span class="title">The Bug Boss</span>
                     <h1>Ocala's Best <br>Pest Control Services</h1>
-                    <a href="#" class="cta-hero rounded"><i class="fa fa-phone fa-lg"></i> Call Now</a>
+                    <a href="tel:3528434680" class="cta-hero rounded"><i class="fa fa-phone fa-lg"></i> Call Now</a>
                     <p>Exterminating household pest for over 30 years</p>
                     
                 </div>

@@ -52,9 +52,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-4">  
 			    
 			    <ul>
-			        <li class="nav-link text-center"><a href="">Call</a></li>
-			        <li class="nav-link text-center"><a href="">Email</a></li>
-			        <li class="nav-link text-center"><a href="">Find Us</a></li>
+			        <li class="nav-link text-center"><a href="tel:3528434680">Call</a></li>
+			        <li class="nav-link text-center"><a href="mailto:contact@bugbossflorida.com" target="_blank">Email</a></li>
+			        <li class="nav-link text-center"><a href="https://www.facebook.com/bugbossflorida" target="_blank">Socialize</a></li>
 			    </ul>
 			    
 			</div>

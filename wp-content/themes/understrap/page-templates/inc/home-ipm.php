@@ -16,8 +16,8 @@
             
             <div class="col-md-10 py-5">
                 
-                <h3>Integrated Pest Management</h3>
-                <p>Tired of being reactive instead of proactive? Contact our pest control experts today to discuss preventive pest control options today!</p>
+                <h3 class="mb-3 h1">Integrated Pest Management</h3>
+                <p>Integrated pest management, or IPM, is a process you can use to solve pest problems while minimizing risks to people and the environment. IPM can be used to manage all kinds of pests anywhere—in urban, agricultural, and wildland or natural areas. <a href="http://ipm.ucanr.edu/">Learn More</a></p>
                 <ul>
                     <li>Identify your pest correctly</li>
                     <li>Monitoring and assessing pest numbers and damage</li>
@@ -26,7 +26,7 @@
                     <li>Using a combination of biological, physical/mechanical and chemical management tools</li>
                     <li>After action is taken, assessing the effect of pest management</li>
                 </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum amet laboriosam, ducimus facilis quae neque dignissimos nobis repellendus ex architecto laudantium accusamus cupiditate veritatis, quo, autem. Pegiat, cum fuga itaque, facilis beatae!</p>
+                <p>Tired of being reactive instead of proactive? Contact our pest control experts today to discuss preventive pest control options today!</p>
                 
             </div>
     

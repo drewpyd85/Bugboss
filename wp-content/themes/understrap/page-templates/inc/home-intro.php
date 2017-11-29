@@ -14,7 +14,7 @@
         
         <div class="col">
             
-            <p class="text-center">The Bug Boss is Ocala’s Premier Pest Control Company. We specialize in roaches, termites, and rodents. Our trained and certified technicians have over 30 years of experience and expertise. We pride ourselves on providing quality pest control service at an affordable price for residential and commercial clients. Please allow us to meet all of your pest control needs!</p>
+            <p class="text-center">The Bug Boss is Ocala’s Premier Pest Control Company. We specialize in roaches, termites, and rodents. Our trained and certified technician has over 30 years of experience and expertise. We pride ourselves on providing quality pest control service at an affordable price for residential and commercial clients. Please allow us to meet all of your pest control needs!</p>
             
         </div>
         
@@ -43,10 +43,10 @@
             
             <div class="row">
                 
-                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-fire-discount.png" alt="Firefighter Discounts"></div>
-                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-ems-discount.png" alt="EMS Discounts"></div>
-                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-police-discount.png" alt="Police Discounts"></div>
-                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-military-discount.png" alt="Military Discounts"></div>
+                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-fire-discount.png" alt="Firefighter Discounts" class="hero-svg"><br><span class="text-muted">FIRE</span></div>
+                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-ems-discount.png" alt="EMS Discounts" class="hero-svg"><br><span class="text-muted">EMS</span></div>
+                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-police-discount.png" alt="Police Discounts" class="hero-svg"><br><span class="text-muted">LEO</span></div>
+                <div class="col-md-6 col-3 mb-3"><img src="<?php bloginfo('template_url'); ?>/img/bug-boss-military-discount.png" alt="Military Discounts" class="hero-svg"><br><span class="text-muted">MILITARY</span></div>
                 
             </div>
         

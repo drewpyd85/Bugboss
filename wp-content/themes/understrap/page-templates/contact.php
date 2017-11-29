@@ -18,8 +18,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="container-fluid contact-content">
     <div class="container py-5">
         <div class="row d-flex align-items-center">
-            <div class="col-md-6">
-                <h2 class="text-center">Stop Pest Now</h2>
+            <div class="col-md-6 text-center">
+                <h2>Stop Pest Now</h2>
+                <small>Licensed and Insured</small>
                 <?php include 'inc/partials/contact-form.php'; ?>
             </div>
             
@@ -28,12 +29,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                <h1>The Bug Boss</h1>
                <p class="lead">We'll Be Happy To Answer Any Questions</p>
                
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum laborum vitae ullam vero repudiandae doloribus, autem magnam facilis et omnis porro nulla necessitatibus, tempore odio dolorum enim. Consequatur, aspernatur molestias.</p>
+               <p>The Bug Boss is committed to providing the best pest control solutions in Ocala and The Villages! We guarantee that our services will be completed and performed to the best of our abilities. Our pest control solutions are 100% guaranteed results!</p>
                 
                 <ul>
-                    <li>The Bug Boss, LLC</li>
-                    <li><a href="tel:3522222222"> (352) 843-4680</a></li>
-                    <li><a href="mailto:email.com"> Contact@bugbossflorida.com</a></li>
+                    <li>The Bug Boss</li>
+                    <li><a href="tel:3528434680"> (352) 843-4680</a></li>
+                    <li><a href="mailto:contact@bugbossflorida.com" target="_blank"> contact@bugbossflorida.com</a></li>
                     <li> 43 Teak Run, Ocala, FL 34472</li>
                 </ul>
                 

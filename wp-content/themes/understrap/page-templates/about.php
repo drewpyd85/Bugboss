@@ -37,10 +37,10 @@ $container = get_theme_mod( 'understrap_container_type' );
            <div class="col-lg-6">
 
                <h3>Why Choose The Bug Boss</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum perspiciatis voluptas placeat, tempora odio, quae laudantium, autem libero illo enim inventore asperiores dolorum magni et hic necessitatibus sapiente officiis porro!</p>
+               <p>We know pest. PERIOD! Our certified technician has been eradicating pest for over 30 years. Not only does he have the expertise to kill bugs, he can also help prevent future problems by recommending prevention practices.</p>
 
                <h3>Our Background</h3>
-               <p>The Bug Boss is Ocala’s Premier Pest Control Company. We specialize in roaches, termites, and rodents. Our trained and certified technicians have over 30 years of experience and expertise. We pride ourselves on providing quality pest control service at an affordable price for residential and commercial clients. Please allow us to meet all of your pest control needs!</p>
+               <p>The Bug Boss is Ocala’s Premier Pest Control Company. We specialize in roaches, termites, and rodents. Our trained and certified technician has over 30 years of experience and expertise. We pride ourselves on providing quality pest control service at an affordable price for residential and commercial clients. Please allow us to meet all of your pest control needs!</p>
 
                <h3>Our Guarantee</h3>
                <p>The Bug Boss is committed to providing the best pest control solutions in Ocala and The Villages! We guarantee that our services will be completed and performed to the best of our abilities. Our pest control solutions are 100% guaranteed results!</p>

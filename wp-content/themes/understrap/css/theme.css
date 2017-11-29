@@ -10176,6 +10176,10 @@ a.skip-link {
     background-position: bottom center;
     background-repeat: no-repeat; }
 
+.hero-svg {
+  width: 150px;
+  height: auto; }
+
 .slider-button-bg {
   background-color: #13a53b;
   -webkit-box-shadow: 0 0px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -10206,7 +10210,8 @@ a.skip-link {
   font-size: 50px; }
 
 .tile-active {
-  background-color: #18d34b; }
+  background-color: #18d34b;
+  text-decoration: underline; }
 
 .custom-hr {
   border: 0;
@@ -10445,7 +10450,9 @@ a.skip-link {
   color: #fff; }
   .contact-content ul {
     list-style: none;
-    font-size: 24px; }
+    font-size: 22px;
+    padding: 0;
+    text-align: left; }
     .contact-content ul a {
       color: #fff;
       text-decoration: none; }
