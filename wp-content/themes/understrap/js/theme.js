@@ -3904,7 +3904,7 @@ jQuery(document).ready(function(){
     
     $('.testimonials').slick({
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 10000,
         dots: false,
         arrows: false,
         speed: 2000,
