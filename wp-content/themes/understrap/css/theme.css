@@ -49,6 +49,9 @@ body {
   padding-top: 0;
   padding-bottom: 0; }
 
+.slick-dots li button {
+  font-size: 0; }
+
 /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
