@@ -13,7 +13,7 @@
     
     <div class="container my-5">
            
-        <h3 class="text-center h1">Happy Customers</h3>
+        <p class="text-center h1">Happy Customers</p>
             
         <div class="testimonials">
             <div class="test-slide text-center">

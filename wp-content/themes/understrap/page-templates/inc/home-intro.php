@@ -32,7 +32,7 @@
            
             <div class="row my-3">
                 <div class="col">
-                    <h3>Giving discounts for those who serve</h3>
+                    <p class="h3">Giving discounts for those who serve</p>
                 </div>
             </div>
             <div class="row">

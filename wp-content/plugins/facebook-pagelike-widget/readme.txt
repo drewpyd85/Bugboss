@@ -12,7 +12,7 @@ This plugin adds a Simple Facebook page Like Widget into your WordPress sidebar,
 
 == Description ==
 
-One of the most popular & lightweight plugin for Facebook page feeds widget with over 5,70,000 downloads and 1,00,000+ active installs.
+One of the most popular & lightweight plugin for Facebook page feeds widget with over 6,30,000 downloads and 1,00,000+ active installs.
 
 An inside look:
 
@@ -82,6 +82,10 @@ You can use more parameters like below.
 
 
 == Changelog ==
+
+= Version 4.2.2 =
+* Solved Shortcode issue with attributes.
+* Code Optimization.
 
 = Version 4.2.1 =
 * Updated few default values for Widget.
